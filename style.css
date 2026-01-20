@@ -159,6 +159,7 @@ button{
 .about {
 
 width: 1600px;
+height: 300px;
  background-color: #1A0B2E;
   color: white;
 display: flex;
@@ -176,4 +177,64 @@ text-align: center;
 }
 .stats h3 {
   color: #3cff8f;
+}
+
+.features {
+  width: 1600px;
+  background-color: #412567;
+  color: white;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: #ffffff;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  grid-template-rows: repeat(3, 225px);
+  gap: 30px;
+}
+
+.feature-card {
+  background: #2b1459;
+  border-radius: 24px;
+  padding: 40px;
+}
+
+/* 1st: col 1, row 1–2 */
+.premium {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+}
+
+/* 2nd: col 2–3, row 1 */
+.mobile {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 1;
+}
+
+/* 3rd: col 2–3, row 2 */
+.global {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1;
+}
+
+/* 4th: col 1–2, row 3 */
+.interview {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 1;
+}
+
+/* 5th: col 3, row 3 */
+.resources {
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
 }
