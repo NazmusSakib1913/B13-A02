@@ -155,3 +155,25 @@ button{
 .btn-subscribe img {
   filter: invert(1);
 }
+
+.about {
+
+width: 1600px;
+ background-color: #1A0B2E;
+  color: white;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+.stats h3 {
+  color: #3cff8f;
+}
