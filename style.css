@@ -62,3 +62,96 @@ button{
     font-weight: bold;
     align-items: baseline;
 }
+/* HERO */
+.hero {
+  width: 1600px;
+  background-image: url("assets/hero-bg.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hero-center {
+  z-index: 2;
+  max-width: 720px;
+  padding: 20px;
+}
+
+
+.hero-circle {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: linear-gradient(135deg,#ffcf4a,#ff4ecd,#7f5cff);
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  margin: 60px auto 40px;
+  box-shadow: 0 0 60px rgba(255,78,205,0.5);
+}
+
+.hero-circle img {
+  width: 90px;
+}
+
+
+.badge {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: #2cff8f;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/* TEXT */
+.hero h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #cfc7ff;
+  margin-bottom: 30px;
+}
+
+/* BUTTONS */
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.hero-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 26px;
+  border-radius: 30px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-spotify {
+  background: linear-gradient(90deg,#ffcf4a,#ff4ecd);
+}
+
+.btn-subscribe {
+  border: 1px solid #2cff8f;
+  color: #2cff8f;
+}
+
+.btn-subscribe img {
+  filter: invert(1);
+}
